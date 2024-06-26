@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2614F872C26CB23001D02E4 /* ImgsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614F852C26CB23001D02E4 /* ImgsCollectionViewCell.swift */; };
+		A2614F882C26CB23001D02E4 /* ImgsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2614F862C26CB23001D02E4 /* ImgsCollectionViewCell.xib */; };
+		A2614F8B2C26D4C9001D02E4 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = A2614F8A2C26D4C9001D02E4 /* Toast */; };
 		A2C537382C26A8E0005AE187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C537372C26A8E0005AE187 /* AppDelegate.swift */; };
 		A2C5373A2C26A8E0005AE187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C537392C26A8E0005AE187 /* SceneDelegate.swift */; };
-		A2C5373C2C26A8E0005AE187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5373B2C26A8E0005AE187 /* ViewController.swift */; };
+		A2C5373C2C26A8E0005AE187 /* GetNoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5373B2C26A8E0005AE187 /* GetNoViewController.swift */; };
 		A2C5373F2C26A8E0005AE187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C5373D2C26A8E0005AE187 /* Main.storyboard */; };
 		A2C537412C26A8E1005AE187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C537402C26A8E1005AE187 /* Assets.xcassets */; };
 		A2C537442C26A8E1005AE187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C537422C26A8E1005AE187 /* LaunchScreen.storyboard */; };
 		A2C5374F2C26A8E1005AE187 /* CaptureItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5374E2C26A8E1005AE187 /* CaptureItTests.swift */; };
 		A2C537592C26A8E1005AE187 /* CaptureItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C537582C26A8E1005AE187 /* CaptureItUITests.swift */; };
 		A2C5375B2C26A8E1005AE187 /* CaptureItUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5375A2C26A8E1005AE187 /* CaptureItUITestsLaunchTests.swift */; };
+		A2C537682C26B8BD005AE187 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C537672C26B8BD005AE187 /* Consts.swift */; };
+		A2C5376A2C26B9B1005AE187 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C537692C26B9B1005AE187 /* CaptureViewController.swift */; };
+		A2C5376C2C26B9D0005AE187 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5376B2C26B9D0005AE187 /* PreviewViewController.swift */; };
+		A2C5376E2C26B9E7005AE187 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5376D2C26B9E7005AE187 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2614F852C26CB23001D02E4 /* ImgsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2614F862C26CB23001D02E4 /* ImgsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImgsCollectionViewCell.xib; sourceTree = "<group>"; };
 		A2C537342C26A8E0005AE187 /* CaptureIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C537372C26A8E0005AE187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C537392C26A8E0005AE187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2C5373B2C26A8E0005AE187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2C5373B2C26A8E0005AE187 /* GetNoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNoViewController.swift; sourceTree = "<group>"; };
 		A2C5373E2C26A8E0005AE187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2C537402C26A8E1005AE187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C537432C26A8E1005AE187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,10 @@
 		A2C537542C26A8E1005AE187 /* CaptureItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptureItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C537582C26A8E1005AE187 /* CaptureItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureItUITests.swift; sourceTree = "<group>"; };
 		A2C5375A2C26A8E1005AE187 /* CaptureItUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureItUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2C537672C26B8BD005AE187 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		A2C537692C26B9B1005AE187 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		A2C5376B2C26B9D0005AE187 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		A2C5376D2C26B9E7005AE187 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2614F8B2C26D4C9001D02E4 /* Toast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +115,17 @@
 			children = (
 				A2C537372C26A8E0005AE187 /* AppDelegate.swift */,
 				A2C537392C26A8E0005AE187 /* SceneDelegate.swift */,
-				A2C5373B2C26A8E0005AE187 /* ViewController.swift */,
 				A2C5373D2C26A8E0005AE187 /* Main.storyboard */,
+				A2614F862C26CB23001D02E4 /* ImgsCollectionViewCell.xib */,
+				A2614F852C26CB23001D02E4 /* ImgsCollectionViewCell.swift */,
+				A2C5373B2C26A8E0005AE187 /* GetNoViewController.swift */,
+				A2C537692C26B9B1005AE187 /* CaptureViewController.swift */,
+				A2C5376B2C26B9D0005AE187 /* PreviewViewController.swift */,
+				A2C5376D2C26B9E7005AE187 /* GalleryViewController.swift */,
 				A2C537402C26A8E1005AE187 /* Assets.xcassets */,
 				A2C537422C26A8E1005AE187 /* LaunchScreen.storyboard */,
 				A2C537452C26A8E1005AE187 /* Info.plist */,
+				A2C537672C26B8BD005AE187 /* Consts.swift */,
 			);
 			path = CaptureIt;
 			sourceTree = "<group>";
@@ -143,6 +163,9 @@
 			dependencies = (
 			);
 			name = CaptureIt;
+			packageProductDependencies = (
+				A2614F8A2C26D4C9001D02E4 /* Toast */,
+			);
 			productName = CaptureIt;
 			productReference = A2C537342C26A8E0005AE187 /* CaptureIt.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +238,9 @@
 				Base,
 			);
 			mainGroup = A2C5372B2C26A8E0005AE187;
+			packageReferences = (
+				A2614F892C26D4C9001D02E4 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = A2C537352C26A8E0005AE187 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +259,7 @@
 			files = (
 				A2C537442C26A8E1005AE187 /* LaunchScreen.storyboard in Resources */,
 				A2C537412C26A8E1005AE187 /* Assets.xcassets in Resources */,
+				A2614F882C26CB23001D02E4 /* ImgsCollectionViewCell.xib in Resources */,
 				A2C5373F2C26A8E0005AE187 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C5373C2C26A8E0005AE187 /* ViewController.swift in Sources */,
+				A2C5373C2C26A8E0005AE187 /* GetNoViewController.swift in Sources */,
+				A2C5376E2C26B9E7005AE187 /* GalleryViewController.swift in Sources */,
+				A2C537682C26B8BD005AE187 /* Consts.swift in Sources */,
 				A2C537382C26A8E0005AE187 /* AppDelegate.swift in Sources */,
 				A2C5373A2C26A8E0005AE187 /* SceneDelegate.swift in Sources */,
+				A2C5376A2C26B9B1005AE187 /* CaptureViewController.swift in Sources */,
+				A2614F872C26CB23001D02E4 /* ImgsCollectionViewCell.swift in Sources */,
+				A2C5376C2C26B9D0005AE187 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -611,6 +643,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2614F892C26D4C9001D02E4 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2614F8A2C26D4C9001D02E4 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2614F892C26D4C9001D02E4 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2C5372C2C26A8E0005AE187 /* Project object */;
 }
