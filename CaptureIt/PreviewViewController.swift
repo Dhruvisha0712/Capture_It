@@ -24,8 +24,6 @@ class PreviewViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        prevBtn.layer.cornerRadius = 15
-        nextBtn.layer.cornerRadius = 15
         
         print("MyVariables.currentPhotoCount: \(MyVariables.currentPhotoCount)")
         previewImgView.image = capturedImgs[MyVariables.currentPhotoCount]

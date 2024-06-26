@@ -22,8 +22,6 @@ class CaptureViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        prevBtn.layer.cornerRadius = 15
-        
         cameraView.layer.addSublayer(previewLayer)
         checkCamPermission()
     }
